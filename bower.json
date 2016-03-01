@@ -1,0 +1,19 @@
+{
+  "name": "TAG test",
+  "description": "Dependencies for run app propused TAG",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "Renato Benkendorf"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "semantic-ui-grid": "^2.1.7",
+    "animate.css": "^3.5.1",
+    "jquery.transit": "^0.9.12",
+    "Flowtype.js": "FlowType.JS#^1.1.0"
+  }
+}

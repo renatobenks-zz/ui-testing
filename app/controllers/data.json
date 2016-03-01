@@ -1,0 +1,41 @@
+{
+    "title": [
+        {
+            "h1": "Vamos começar? É rapidinho...",
+            "h2": ""
+        },
+        {
+            "h1": "Encontre a empresa que você deseja monitorar",
+            "h2": "Após encontrar a empresa, você escolherá a cidade onde ela se encontra."
+        },
+        {
+            "h1": "Encontre a empresa que você deseja monitorar",
+            "h2": "Após encontrar a cidade, você escolherá a unidade."
+        },
+        {
+            "h1": "Encontramos <span>3 estabelecimentos.</span> Selecione um para monitorar",
+            "h2": ""
+        }
+    ],
+    "data": [
+        {
+            "h2": "Em <span>menos de um minuto</span>, você estará em nosso painel.",
+            "p": "Iniciar agora"
+        },
+        {
+            "h2": "Nome do estabelecimento",
+            "button": "Restaurante Costa do Mar",
+            "p": "Avançar"
+        },
+        {
+            "h2": "Nome da cidade",
+            "button": "Joinville / SC",
+            "p": "Avançar"
+        },
+        {
+            "h2": "Hamburgueria da VACA",
+            "desc": "Endereço: R. São Paulo, 31 - Bucarein, Joinville - SC, 89202-200",
+            "p": "Ok, ir para o Painel"
+        }
+    ]
+}
