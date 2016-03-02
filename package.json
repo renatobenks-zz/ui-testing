@@ -4,10 +4,10 @@
   "description": "Single-page animation for test TAG Interativa",
   "main": "server.js",
   "directories": {
-    "test": "test"
+    "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt jshint"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,14 @@
     "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
     "multer": "^1.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-qunit": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-qunit-cov": "^0.3.6",
+    "grunt-qunit-junit": "^0.3.1"
   }
 }
