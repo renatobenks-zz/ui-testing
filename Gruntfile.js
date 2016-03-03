@@ -11,9 +11,8 @@ module.exports = function (grunt) {
           maxparams: 3, maxdepth: 2, maxstatements: 50},
       all: [
           'Gruntfile.js',
-          'src/js/**/*.js'
+          'public_html/js/**/*.js'
       ]
   };
   grunt.initConfig(gruntConfig);
-
 };
