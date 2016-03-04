@@ -4,10 +4,15 @@ node_js:
   - 4
   - 4.2.2
 
-notifications:
-  slack: 'taginterativa.slack.com:r3N4T0t3g#dev'
-  email:
-    recipients:
-      - renato@taginterativa.com.br
-    on_success: [always|never|change] # default: change
-    on_failure: [always|never|change] # default: always
+before_install: 
+  - npm install -g grunt-cli
+
+install:
+  - npm install
+  - bower install
+
+script: 
+  - npm test
+
+after_script:
+  - node server.js
