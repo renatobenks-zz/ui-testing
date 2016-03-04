@@ -7,21 +7,13 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "grunt jshint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/renatobenks/tag_test.git"
+    "test": "grunt travis"
   },
   "keywords": [
-    "marketing"
+    "marketing test"
   ],
   "author": "Renato Benkendorf",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/renatobenks/tag_test/issues"
-  },
-  "homepage": "https://github.com/renatobenks/tag_test#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.1",

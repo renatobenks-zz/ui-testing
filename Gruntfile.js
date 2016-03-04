@@ -1,7 +1,6 @@
 /*global module*/
 module.exports = function (grunt) {
   'use strict';
-
   var gruntConfig = {};
   grunt.loadNpmTasks('grunt-contrib-jshint');
   gruntConfig.jshint = {
@@ -15,4 +14,5 @@ module.exports = function (grunt) {
       ]
   };
   grunt.initConfig(gruntConfig);
+  grunt.registerTask('travis', 'jshint');
 };
