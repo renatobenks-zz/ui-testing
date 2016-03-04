@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - 4
+  - 4.2.2
+
+notifications:
+  slack:
+    on_success: always
+  email:
+    recipients:
+      - renato@taginterativa.com.br
+    on_success: [always|never|change] # default: change
+    on_failure: [always|never|change] # default: always

@@ -1,6 +1,6 @@
 /*global module*/
 module.exports = function (grunt) {
-  'use strict';
+  'use strict'; 
   var gruntConfig = {};
   grunt.loadNpmTasks('grunt-contrib-jshint');
   gruntConfig.jshint = {
