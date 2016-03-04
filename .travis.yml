@@ -13,6 +13,3 @@ script:
 
 after_script:
   - node server.js
-
-after_success:
-  - cd /home/ubuntu/storage/protypes/qa
