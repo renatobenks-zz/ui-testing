@@ -15,5 +15,5 @@ after_success:
   - eval "$(ssh-agent -s)"
   - chmod 600 keys/tag.pem
   - ssh-add keys/tag.pem
-  - git remote add deploy /home/ubuntu/storage/prototypes/qa
+  - git remote add deploy git@bitbucket.org:devtaginterativa/qa.git
   - git push deploy
