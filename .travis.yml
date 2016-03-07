@@ -10,8 +10,3 @@ install:
 
 script: 
   - npm test
-
-after_success:
-  - ssh -i keys/tag.pem ubuntu@novodev.taginterativa.com.br
-  - cd storage/projects/qa
-  - git pull origin master
