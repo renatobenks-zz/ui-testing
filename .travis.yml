@@ -10,6 +10,3 @@ install:
 
 script: 
   - npm test
-
-after_script:
-  - node server.js
