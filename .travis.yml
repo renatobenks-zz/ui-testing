@@ -8,5 +8,9 @@ install:
   - npm install
   - bower install
 
+before_script:
+  - npm install -g grunt
+  - npm install -g grunt-cli
+
 script: 
   - npm test
