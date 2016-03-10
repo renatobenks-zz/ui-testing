@@ -23,3 +23,12 @@ app.get('/', function (req, res) {
 app.post('/processar', urlencodedParser, function (req, res) {
    // Prepare output in JSON format
 });
+
+var server = app.listen(3000, function () {
+
+  var host = server.address().address;
+  var port = server.address().port;
+
+  console.log("App listening at http://:"+host+port);
+
+});

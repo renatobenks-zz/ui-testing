@@ -9,7 +9,8 @@ module.exports = function (grunt) {
       },
       my_target: {
         files:{
-          'dest/minify-script.min.js':['public_html/js/script.js']
+          'dest/script.min.js':['public_html/js/script.js'],
+          'dest/scroll.min.js':['public_html/js/featureScroll.js']
         }
       }
   };

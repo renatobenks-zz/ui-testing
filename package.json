@@ -4,7 +4,7 @@
   "description": "Single-page animation for test TAG Interativa",
   "main": "server.js",
   "directories": {
-    "test": "tests"
+    "tests": "tests"
   },
   "scripts": {
     "test": "grunt travis --verbose"
