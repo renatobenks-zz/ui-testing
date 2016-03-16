@@ -10,6 +10,7 @@ install:
 
 script: 
   - npm test
- 
-after_script:
-  - find . -type f | wc -l
+
+after_success:
+  - mkdir .tar
+  - tar -zcf .tar/qa.tar **
