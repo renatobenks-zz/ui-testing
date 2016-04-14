@@ -9,8 +9,11 @@ install:
   - bower install
 
 script: 
-  - npm test
+  - npm compress
+
+after_script:
+  - ls -l
 
 after_success:
   - mkdir .tar
-  - tar -zcf .tar/qa.tar **
+  - tar -zcf .tar/qa.tar ** 
