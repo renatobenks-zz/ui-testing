@@ -9,11 +9,10 @@ module.exports = function (grunt) {
       },
       my_target: {
         files:{
-          'dest/script.min.js':['public_html/js/script.js'],
-          'dest/scroll.min.js':['public_html/js/featureScroll.js']
+          'dest/script.min.js':['public_html/js/script.js', 'public_html/js/featureScroll.js'],
         }
       }
   };
   grunt.initConfig(gruntConfig);
-  grunt.registerTask('travis', 'uglify');
+  grunt.registerTask('default', 'uglify');
 };
