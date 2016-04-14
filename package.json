@@ -7,7 +7,7 @@
     "tests": "tests"
   },
   "scripts": {
-    "test": "grunt travis --verbose"
+    "test": "grunt --verbose"
   },
   "repository": {
     "type": "git",

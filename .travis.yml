@@ -9,7 +9,7 @@ install:
   - bower install
 
 script: 
-  - npm compress
+  - npm test
 
 after_script:
   - ls -l
