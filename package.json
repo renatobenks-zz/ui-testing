@@ -21,9 +21,7 @@
   "dependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
-    "grunt-contrib-uglify": "^1.0.0"
-  },
-  "devDependencies": {
+    "grunt-contrib-uglify": "^1.0.0",
     "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
