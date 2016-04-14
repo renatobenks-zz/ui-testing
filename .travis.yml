@@ -4,11 +4,11 @@ node_js:
   - 4
   - 4.2.2
 
-install:
+before_install:
   - npm install
   - bower install
 
-script: 
+install: 
   - npm test
 
 after_script:
