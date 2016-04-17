@@ -4,11 +4,8 @@ node_js:
   - 4
   - 4.2.2
 
-before_script:
-  - npm update --save
-
 script:
-  - npm test
+  - npm update --save
 
 after_success:
   - mkdir .tar
