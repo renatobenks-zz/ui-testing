@@ -4,13 +4,10 @@ node_js:
   - 4
   - 4.2.2
 
-before_install:
-  - 
-
-install: 
+before_script:
   - npm update --save
 
-before_script:
+script:
   - npm test
 
 after_success:
