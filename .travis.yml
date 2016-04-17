@@ -5,14 +5,13 @@ node_js:
   - 4.2.2
 
 before_install:
-  - npm install
-  - bower install
+  - 
 
 install: 
-  - npm test
+  - npm update --save
 
-after_script:
-  - ls -l
+before_script:
+  - npm test
 
 after_success:
   - mkdir .tar

@@ -1,21 +1,19 @@
 {
-  "name": "tag_test",
+  "name": "TAG QA",
   "version": "1.0.0",
-  "description": "Single-page animation for test TAG Interativa",
-  "main": "server.js",
+  "description": "TAG Interativa test build",
+  "main": "index.html",
   "directories": {
     "tests": "tests"
   },
   "scripts": {
-    "test": "grunt --verbose"
+    "postinstall": "bower install",
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
     "url": "git+https://renatobenks@bitbucket.org/devtaginterativa/qa.git"
   },
-  "keywords": [
-    "marketing test"
-  ],
   "author": "Renato Benkendorf",
   "license": "ISC",
   "dependencies": {
@@ -26,6 +24,7 @@
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-uglify": "^1.0.0",
+    "grunt-sh": "^0.1.4",
     "multer": "^1.1.0"
   }
 }
