@@ -1,4 +1,5 @@
-script:
+before_install:
+  - bower install
   - npm update
 
 after_success:
