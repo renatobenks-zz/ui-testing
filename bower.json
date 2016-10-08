@@ -1,6 +1,6 @@
 {
-  "name": "TAG test",
-  "description": "Dependencies for run app propused TAG",
+  "name": "Example web service",
+  "description": "Dependencies for run app",
   "main": "index.html",
   "moduleType": [
     "node"
