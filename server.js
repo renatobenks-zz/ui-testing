@@ -9,7 +9,7 @@ for (var file in filesLoad) {
 }
 
 app.get('/', function (req, res) {
-   res.sendFile( __dirname + '/app/' + 'index.html' );
+   res.sendFile(__dirname + '/app/');
 });
 
 var server = app.listen(9000, function () {
