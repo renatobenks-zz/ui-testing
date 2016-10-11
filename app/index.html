@@ -2,14 +2,51 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Hello test world</title>
+        <title>Seu CPF válido</title>
         <link rel="icon" type="text/css" href="public/assets/icon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="animate.css/animate.css"/>
-        <link rel="stylesheet" type="text/css" href="style.min.css"/>
+        <link rel="stylesheet" type="text/css" href="public/styles/styles.css"/>
     </head>
     <body>
-        <h1 class="animated fadeInDown">Hello World!</h1>
+        <div class="content">
+            <h1>Seu CPF válido</h1>
+            <div>
+                <div class="form-control">
+                    <h2>Cadastro</h2>
+                    <form id="cadaster" action="/cadaster" method="post">
+                        <label>
+                            Nome: <input type="text" name="name"/>
+                        </label><br>
+                        <label>
+                            E-mail: <input type="email" name="email"/>
+                        </label><br>
+                        <label>
+                            Telefone: <input type="text" name="phone"/>
+                        </label><br>
+                        <label>
+                            Cidade: <input type="text" name="city"/>
+                        </label><br>
+                        <label>
+                            Login: <input type="text" name="user"/>
+                        </label><br>
+                        <label>
+                            Senha: <input type="password" name="password"/>
+                        </label>
+                    </form>
+                </div>
+                <div class="form-control">
+                    <h2>Login</h2>
+                    <form id="login" action="/login" method="post">
+                            Login: <input type="text" name="user"/>
+                        </label><br>
+                        <label>
+                            Senha: <input type="password" name="password"/>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
