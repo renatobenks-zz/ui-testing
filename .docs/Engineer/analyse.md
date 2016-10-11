@@ -1,12 +1,11 @@
-Análise app:
+# Análise app:
+<h2> CADASTRO:</h2>
 
-- CADASTRO:
-
-Requisitos funcionais:
+- __Requisitos funcionais:__
 
 	O sistema deve cadastrar o usuário se o usuário preencher todos os dados requiridos corretamente.
 
-Requisitos não funcionais:
+- __Requisitos não funcionais:__
 
 	O campo e-mail deve ter as especificações corretas.
 
@@ -14,7 +13,7 @@ Requisitos não funcionais:
 
 	O campo usuário deve ser único no sistema sem caracteres especiais.
 
-Regras de negócio:
+- __Regras de negócio:__
 
 	Os campos Nome, e-mail, usuário e senha são obrigatórios.
 
@@ -22,18 +21,18 @@ Regras de negócio:
 
 	Será destacado os campos que estiverem incorretos.
 
-- LOGIN:
+## LOGIN:
 
-Requisitos funcionais:
+- __Requisitos funcionais:__
 
 	O sistema deve logar o usuário caso os dados estejam corretos.
 
-Requisitos não funcionais:
+- __Requisitos não funcionais:__
 
 	O campo de senha deve ter no minimo 5 dígitos.
 
 	O campo usuário deve ser único no sistema sem caracteres especiais.
 
-Regras de negócio: 
+- __Regras de negócio:__ 
 
 	O sistema mostrará a mensagem de erro "Senha/usuário inválido" caso o usuário ou a senha estiverem incorretos.
