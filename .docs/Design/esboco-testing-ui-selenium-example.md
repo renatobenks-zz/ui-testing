@@ -2,7 +2,7 @@ Testando com Selenium:
 
 -Criação da página: 
 
-	-Primeira tela: cadastro(nome, cpf, e-mail, telefone, cidade, user, senha) e login;
+	-Primeira tela: cadastro(nome, e-mail, telefone, cidade, user, senha) e login;
 
 	-Segunda tela: modal(adicionando família; botão "+add";"close";"save");
 
