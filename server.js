@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 var cookieParser = require('cookie-parser');
 
-var filesLoad = ['app', 'build', 'bower_components'];
+var filesLoad = ['app', 'bower_components', 'build'];
 for (var file in filesLoad) {
     app.use(express.static(filesLoad[file]));
 }

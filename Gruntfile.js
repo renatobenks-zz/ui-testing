@@ -1,12 +1,23 @@
 module.exports = function (grunt) {
+    require('time-grunt')(grunt);
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-
-        stylesheet: {
+        less: {
+            development: {
+                options: {
+                    compress: true,
+                    yuicompress: true,
+                    optimization: 2
+                },
+                files: {
+                    "build/styles.min.css": "app/public/less/main.less"
+                }
+            }
         }
     });
 
-    grunt.loadTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-less');
 
-    grunt.registerTask('default', ['stylesheet']);
+    grunt.registerTask('default', ['less:development']);
 };
