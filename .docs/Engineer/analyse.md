@@ -1,5 +1,5 @@
 # Análise app:
-<h2> CADASTRO:</h2>
+## CADASTRO:
 
 - __Requisitos funcionais:__
 
@@ -33,6 +33,6 @@
 
 	O campo usuário deve ser único no sistema sem caracteres especiais.
 
-- __Regras de negócio:__ 
+- __Regras de negócio:__
 
 	O sistema mostrará a mensagem de erro "Senha/usuário inválido" caso o usuário ou a senha estiverem incorretos.
