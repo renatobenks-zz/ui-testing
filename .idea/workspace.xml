@@ -2,47 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d3bdcce-fa4f-47d8-aad3-72e577f346d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/styles/Fonts/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/styles/main.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/stylesheet.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/analise.md" afterPath="$PROJECT_DIR$/.docs/Engineer/analyse.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/esboco-testing-ui-selenium-example.md" afterPath="$PROJECT_DIR$/.docs/Design/esboco-testing-ui-selenium-example.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/generator_config.txt" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/generator_config.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-black-demo.html" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-black-demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-black-webfont.eot" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-black-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-black-webfont.svg" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-black-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-black-webfont.ttf" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-black-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-black-webfont.woff" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-black-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-black-webfont.woff2" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-black-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-bold-demo.html" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-bold-demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-bold-webfont.eot" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-bold-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-bold-webfont.svg" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-bold-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-bold-webfont.ttf" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-bold-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-bold-webfont.woff" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-bold-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-bold-webfont.woff2" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-bold-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-regular-demo.html" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-regular-demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-regular-webfont.eot" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-regular-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-regular-webfont.svg" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-regular-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-regular-webfont.ttf" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-regular-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-regular-webfont.woff" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-regular-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/roboto-regular-webfont.woff2" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/roboto-regular-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/specimen_files/grid_12-825-55-15.css" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/specimen_files/grid_12-825-55-15.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/roboto/specimen_files/specimen_stylesheet.css" afterPath="$PROJECT_DIR$/app/public/fonts/roboto/specimen_files/specimen_stylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/tif/Roboto-Black.ttf" afterPath="$PROJECT_DIR$/app/public/fonts/tif/Roboto-Black.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/tif/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/app/public/fonts/tif/Roboto-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/fonts/tif/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/app/public/fonts/tif/Roboto-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/img/assets/asset-move.png" afterPath="$PROJECT_DIR$/app/public/assets/assets/asset-move.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/img/assets/check.png" afterPath="$PROJECT_DIR$/app/public/assets/assets/check.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/img/assets/close.png" afterPath="$PROJECT_DIR$/app/public/assets/assets/close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/img/assets/inp.png" afterPath="$PROJECT_DIR$/app/public/assets/assets/inp.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/img/bg/bg.png" afterPath="$PROJECT_DIR$/app/public/assets/bg/bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/img/icon/icon.png" afterPath="$PROJECT_DIR$/app/public/assets/icon/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/img/logo/logo.png" afterPath="$PROJECT_DIR$/app/public/assets/logo/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/UI.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/UI_node_modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="UI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,52 +28,12 @@
     <favorites_list name="UI" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonts.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/public/styles/Fonts/fonts.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,6 +66,7 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -205,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,42 +151,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,15 +270,16 @@
       <workItem from="1475936142248" duration="1432000" />
       <workItem from="1475938289132" duration="3307000" />
       <workItem from="1476142696535" duration="10534000" />
+      <workItem from="1477521225285" duration="3575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15901000" />
+    <option name="totallyTimeSpent" value="19476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4916067" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -391,18 +287,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -424,6 +320,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/js/script.js" />
     <entry file="file://$PROJECT_DIR$/public_html/js/featureScroll.js" />
     <entry file="file://$PROJECT_DIR$/config/jsTestDriver.conf" />
@@ -442,49 +370,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/assets/assets/asset-move.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/assets/assets/inp.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/assets/assets/close.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/assets/assets/asset-move.png" />
+    <entry file="file://$PROJECT_DIR$/app/public/assets/assets/inp.png" />
+    <entry file="file://$PROJECT_DIR$/app/public/assets/assets/close.png" />
     <entry file="file://$PROJECT_DIR$/app/public/assets/background/image.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.jade" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="68">
             <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/styles/main.less" />
+    <entry file="file://$PROJECT_DIR$/app/public/styles/Fonts/fonts.less" />
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -495,8 +404,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-198">
           <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -509,26 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/styles/main.less">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/styles/Fonts/fonts.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
