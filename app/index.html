@@ -9,41 +9,50 @@
         <link rel="stylesheet" type="text/css" href="animate.css/animate.css"/>
         <link rel="stylesheet" type="text/css" href="public/styles/styles.css"/>
     </head>
-    <body>
+    <body> 
         <div class="content">
-            <h1>Seu CPF válido</h1>
+            <h1 class="title">Seu CPF válido</h1>
             <div>
                 <div class="form-control">
                     <h2>Cadastro</h2>
                     <form id="cadaster" action="/cadaster" method="post">
                         <label>
-                            Nome: <input type="text" name="name"/>
+                            Nome:<br>
+                            <input type="text" name="name"/>
                         </label><br>
                         <label>
-                            E-mail: <input type="email" name="email"/>
-                        </label><br>
-                        <label>
-                            Telefone: <input type="text" name="phone"/>
-                        </label><br>
-                        <label>
-                            Cidade: <input type="text" name="city"/>
-                        </label><br>
-                        <label>
-                            Login: <input type="text" name="user"/>
-                        </label><br>
-                        <label>
-                            Senha: <input type="password" name="password"/>
+                            E-mail:<br>
+                            <input type="email" name="email"/>
                         </label>
+                        <label><br>
+                            Telefone:<br>
+                            <input type="text" name="phone"/>
+                        </label><br>
+                        <label>
+                            Cidade:<br>
+                            <input type="text" name="city"/>
+                        </label><br>
+                        <label>
+                            Login:<br><input type="text" name="user"/>
+                        </label><br>
+                        <label>
+                            Senha:<br>
+                            <input type="password" name="password"/>
+                        </label><br>
+                        <input type="submit" value="Cadastrar" class="button-cadaster">
                     </form>
                 </div>
                 <div class="form-control">
                     <h2>Login</h2>
                     <form id="login" action="/login" method="post">
-                            Login: <input type="text" name="user"/>
+                            Login:<br>
+                            <input type="text" name="user"/>
                         </label><br>
                         <label>
-                            Senha: <input type="password" name="password"/>
-                        </label>
+                            Senha:<br>
+                            <input type="password" name="password"/>
+                        </label><br>
+                        <input type="submit" value="Entrar" class="button-cadaster">
                     </form>
                 </div>
             </div>
