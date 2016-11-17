@@ -1,60 +1,22 @@
-@font-face {
-    font-family: 'robotoblack';
-    src: url('../fonts/roboto/roboto-black-webfont.eot');
-    src: url('../fonts/roboto/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto/roboto-black-webfont.woff2') format('woff2'),
-         url('../fonts/roboto/roboto-black-webfont.woff') format('woff'),
-         url('../fonts/roboto/roboto-black-webfont.ttf') format('truetype'),
-         url('../fonts/roboto/roboto-black-webfont.svg#robotoblack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotobold';
-    src: url('../fonts/roboto/roboto-bold-webfont.eot');
-    src: url('../fonts/roboto/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto/roboto-bold-webfont.woff2') format('woff2'),
-         url('../fonts/roboto/roboto-bold-webfont.woff') format('woff'),
-         url('../fonts/roboto/roboto-bold-webfont.ttf') format('truetype'),
-         url('../fonts/roboto/roboto-bold-webfont.svg#robotobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotoregular';
-    src: url('../fonts/roboto/roboto-regular-webfont.eot');
-    src: url('../fonts/roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto/roboto-regular-webfont.woff2') format('woff2'),
-         url('../fonts/roboto/roboto-regular-webfont.woff') format('woff'),
-         url('../fonts/roboto/roboto-regular-webfont.ttf') format('truetype'),
-         url('../fonts/roboto/roboto-regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
 	color: white;
 	font-family: 'robotoregular';
 	margin: 0;
 	background: url("../assets/background/image.png") no-repeat center left fixed;
+    font-family: 'Amatic SC', cursive;
 }
+
 
 .content{
 	width: 50%;
-	margin: 6.25% auto 0;
+	margin: 6.25% auto;
 	text-align: center;
 	display: table;
 }
 
-h1, h2{
-	font-weight: normal;
-	font-family: 'robotobold';
-}
-
 .content .title{
-	margin: 0 0 3em 0;
+	margin: 0 0 1em 0;
+    font-size: 3.5em;
 }
 
 .form-control{
@@ -62,4 +24,30 @@ h1, h2{
     width: 50%;
     float: left;
     text-align: left;
+    font-size: 1.5em;
+}
+
+.form-control form{
+    width: 150px;
+}
+
+.form-control input{
+    width: 140px;
+    border: 1px darkcyan solid;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-radius: .3rem;
+}
+
+.form-control .button-cadaster{
+    color: white;
+    width: auto;
+    float: right;
+    padding: 5px 10px;
+    margin: 5px 0;
+    font-family: 'Open Sans';
+    background: darkcyan;
+    border: 1px teal solid;
+
 }
