@@ -6,8 +6,9 @@
   "directories": {
     "tests": "tests"
   },
-  "scripts": {
-    "postinstall": "bower install"
+  "scripts": {  
+    "install": "bower install",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
