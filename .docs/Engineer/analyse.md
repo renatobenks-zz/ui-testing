@@ -3,9 +3,12 @@
 
 - __Requisitos funcionais:__
 
+
 	O sistema deve cadastrar o usuário se o usuário preencher todos os dados requiridos corretamente.
 
+
 - __Requisitos não funcionais:__
+
 
 	O campo e-mail deve ter as especificações corretas.
 
@@ -13,7 +16,9 @@
 
 	O campo usuário deve ser único no sistema sem caracteres especiais.
 
+
 - __Regras de negócio:__
+
 
 	Os campos Nome, e-mail, usuário e senha são obrigatórios.
 
@@ -21,19 +26,25 @@
 
 	Será destacado os campos que estiverem incorretos.
 
+
 ## LOGIN:
 
 - __Requisitos funcionais:__
 
+
 	O sistema deve logar o usuário caso os dados estejam corretos.
 
+
 - __Requisitos não funcionais:__
+
 
 	O campo de senha deve ter no minimo 5 dígitos.
 
 	O campo usuário deve ser único no sistema sem caracteres especiais.
 
+
 - __Regras de negócio:__
+
 
 	O sistema mostrará a mensagem de erro "Senha/usuário inválido" caso o usuário ou a senha estiverem incorretos.
 
@@ -42,13 +53,16 @@
 
 - __Requisitos funcionais:__
 
+
     O sistema deve cadastrar a familia ao clicar "Salvar"
     se todas as informações estiverem corretas.
 
 	O sistema deve adicionar novo membro na familia ao clicar em "+"
 	se as informações do membro atual estiverem corretas.
 
+
 - __Requisitos não funcionais:__
+
 
 	O campo de nome(inteiro) não pode repetir na mesma familia.
 
@@ -56,7 +70,9 @@
 
 	O campo de grau de parentesco deve ser selecionado conforme sugestões.
 
+
 - __Regras de negócio:__
+
 
 	O sistema mostra a mensagem de erro "Informações duplicadas" caso o nome ou o CPF estejam duplicados.
 
@@ -64,31 +80,41 @@
 
 	O sistema destaca os campos preenchidos incorretamente.
 
+
 ## VALIDAR CPF
 
 - __Requisitos funcionais:__
 
+
     O sistema deve validar o CPF inserido.
 
+
 - __Requisitos não funcionais:__
+
 
     O CPF inserido deve ter 11 digitos.
 
     CPF com e sem formatação padrão deve ser validados.
 
+
 - __Regras de negócio:__
+
 
     O sistema retorna CPF formatado quando CPF inserido está fora do formato.
 
     O sistema não deixa ser colocado mais de 11 digitos no campo de validação.
 
+
 ## SALVAR CPF
 
 - __Requisitos funcionais:__
 
+
     O sistema deve salvar o CPF inserido na validação.
 
+
 - __Requisitos não funcionais:__
+
 
     O CPF a ser salvo deve ser válido.
 
@@ -96,7 +122,9 @@
 
     O CPF a ser salvo deve ser inexistente.
 
+
 - __Regras de negócio:__
+
 
     O sistema não mostra o botão de salvar CPF caso o CPF inserido esteja inválido.
 
@@ -107,9 +135,12 @@
 
 - __Requisitos funcionais:__
 
+
     O sistema deve gerar um CPF válido aleatoriamente.
 
+
 - __Requisitos não funcionais:__
+
 
     O CPF gerado deve ter 11 digitos.
 
@@ -117,15 +148,19 @@
 
     O CPF gerado deve ser diferente da lista de CPF salvos na conta do usuário.
 
+
 - __Regras de negócio:__
+
 
     O sistema retorna CPF formatado quando CPF inserido está fora do formato.
 
     O sistema não deixa ser colocado mais de 11 digitos no campo de validação.
 
+
 ## GERENCIAR FAMILIA CADASTRADA
 
 - __Requisitos funcionais:__
+
 
     O sistema mostra uma lista de cada membro da familia cadastrado.
 
@@ -135,8 +170,26 @@
 
     O sistema possibilita inserir um novo membro na familia.
 
+
 - __Requisitos não funcionais:__
+
+
+    O sistema apenas pode excluir um membro de cada vez.
+
+    O sistema apenas pode inserir um novo membro de cada vez.
+
+    O sistema apenas pode editar um membro de cada vez.
+
+    O sistema apenas permite persistir informações do membro
+    de nome e CPF que não estejam já cadastradas.
+
+    O sistema apenas permite persistir um CPF que esteja válido.
 
 - __Regras de negócio:__
 
+
+    O sistema mostra mensagem de erro "Informações já cadastradas" quando o nome e/ou CPF
+    sejam iguais ao de algum membro já cadastrado.
+
+    O sistema mostra mensagem de erro "CPF inválido" caso o CPF inserido esteja inválido.
 

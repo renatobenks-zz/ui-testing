@@ -1,7 +1,3 @@
 before_install:
   - bower install
   - npm update
-
-after_success:
-  - mkdir .tar
-  - tar -zcf .tar/qa.tar **
