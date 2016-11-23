@@ -6,6 +6,9 @@ body {
     font-family: 'Amatic SC', cursive;
 }
 
+hr{
+    border-style: solid;
+}
 
 .content{
 	width: 50%;
@@ -14,21 +17,26 @@ body {
 	display: table;
 }
 
-.content .title{
+.content h1#title{
 	margin: 0 0 1em 0;
     font-size: 3.5em;
 }
 
 .form-control{
 	margin: 0;
-    width: 50%;
+    width: 100%;
     float: left;
     text-align: left;
     font-size: 1.5em;
 }
 
+.form-control h2{
+    text-align: center;
+}
+
 .form-control form{
     width: 150px;
+    margin: 0 auto;
 }
 
 .form-control input{
@@ -45,7 +53,7 @@ body {
     width: auto;
     float: right;
     padding: 5px 10px;
-    margin: 5px 0;
+    margin: 10px 0;
     font-family: 'Open Sans';
     background: darkcyan;
     border: 1px teal solid;
