@@ -1,4 +1,11 @@
+# Project config
+.idea/
+nbproject/
+
+# Dependencies app
 node_modules/
+
+# Config environment
 .monitor
 config/env/env.json
 Makefile
