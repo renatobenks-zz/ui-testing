@@ -1,6 +1,11 @@
+# Config projects
 .idea/
+nb_project/
+
+# Dependencies app
 node_modules/
 bower_components/
+
+# Compile build
 dest/
 build/
-nb_project/
