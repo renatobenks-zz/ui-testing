@@ -1,0 +1,6 @@
+extends ../default
+block content
+    form.validate-cpf(action="", method="POST")
+        input#cpf(type="text", name="cpf", placeholder="Valid your CPF", class="animated fadeInLeft")
+        button#button-validate-cpf(class="animated rollIn")
+            i(class="fa fa-chevron-right", aria-hidden="true")

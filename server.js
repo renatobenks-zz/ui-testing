@@ -13,12 +13,14 @@ for (var file in filesLoad) {
 
 app.use(cookieParser());
 
+app.set('view engine', 'jade');
+
 app.get('/', function (req, res) {
     res.render(__dirname + '/app/');
 });
 
 app.get('/dashboard', function (req, res) {
-    res.render(__dirname + '/app/src/views/dashboard.html');
+    res.render(__dirname + '/app/src/views/dashboard/dashboard', { title: 'Dashboard' });
 });
 
 var server = app.listen(3000, function () {

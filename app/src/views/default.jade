@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+    include head.jade
+    body
+        include header.jade
+        .container
+            .menu
+                include menu
+            .messages
+                include messages.jade
+            .content.dashboard
+                block content
+        include footer.jade
+        include foot.jade

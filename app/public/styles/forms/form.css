@@ -1,0 +1,38 @@
+.form-control{
+    margin: 0;
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.form-control h2{
+    text-align: center;
+}
+
+.form-control form{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.form-control input{
+    width: 140px;
+    border: 1px darkcyan solid;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-radius: .2rem;
+}
+
+.form-control .button-cadaster{
+    color: white;
+    width: auto;
+    float: right;
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100%;
+    background: darkcyan;
+    border: 1px teal solid;
+    cursor: pointer;
+}
