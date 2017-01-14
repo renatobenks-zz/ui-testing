@@ -8,7 +8,7 @@
   },
   "scripts": {
     "install": "bower install",
-    "start": "node server.js"
+    "start": "node ./app/server.js"
   },
   "repository": {
     "type": "git",
