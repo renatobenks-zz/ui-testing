@@ -1,6 +1,7 @@
 extends ../default
 block content
-    form.validate-cpf(action="", method="POST")
-        input#cpf(type="text", name="cpf", placeholder="Valid your CPF", class="animated fadeInLeft")
-        button#button-validate-cpf(class="animated rollIn")
-            i(class="fa fa-chevron-right", aria-hidden="true")
+    form#validateCPF(action="/validate-cpf", method="POST")
+        input#cpf(type="text", maxlength="11", name="cpf", placeholder="Valid your CPF")
+        button#button-validate-cpf(class="animated fadeIn")
+            i.fa.fa-chevron-right(aria-hidden="true")
+        span#loadBar

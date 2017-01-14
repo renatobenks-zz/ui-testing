@@ -1,14 +1,14 @@
 doctype html
 html(lang="en")
-    include head.jade
+    include head
     body
-        include header.jade
+        include header
         .container
-            .menu
+            .menu.animated.fadeInUp
                 include menu
             .messages
-                include messages.jade
+                include messages
             .content.dashboard
                 block content
-        include footer.jade
-        include foot.jade
+        include footer
+        include foot
