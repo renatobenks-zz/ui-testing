@@ -25,7 +25,7 @@
                 <img src="public/assets/icon.png">
             </h1>
             <hr class="animated"/>
-            <div class="content-form">
+            <div class="content-form animated">
                 <div class="form-control">
                     <h2>Cadastro</h2>
                     <form id="cadaster" action="/cadaster" method="post">
@@ -60,13 +60,13 @@
                     <form id="login" action="/login" method="post">
                         <label>
                             Login:<br>
-                            <input type="text" placeholder="Your username here" name="username"/>
+                            <input type="text" placeholder="Nome de usuário" name="username"/>
                         </label><br>
                         <label>
                             Senha:<br>
-                            <input type="password" placeholder="Put your password here" name="password"/>
+                            <input type="password" placeholder="Senha de acesso" name="password"/>
                         </label><br>
-                        <input type="submit" value="Entrar" class="button-cadaster">
+                        <input type="submit" id="button-login" value="Entrar" class="button-cadaster">
                     </form>
                 </div>
             </div>
