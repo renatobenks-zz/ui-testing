@@ -5,6 +5,10 @@ body {
     font-family: 'Amatic SC', cursive;
 }
 
+i{
+    font-style: normal;
+}
+
 hr{
     border-style: solid;
 }

@@ -1,16 +1,25 @@
 header.top-header{
     height: 60px;
     text-align: center;
-    background: whitesmoke;
+    background: #515151;
     z-index: 99;
 }
 
-.top-header a{
-    color: black;
-    font-size: 2.5rem;
+.top-header .content-header{
+    position: relative;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.top-header .content-header a{
+    font-size: 3em;
     text-decoration: none;
 }
 
-.top-header a img{
-    height: 75%;
+.top-header .content-header a i{
+    color: white;
+}
+
+.top-header .content-header a img{
+    height: 40px;
 }

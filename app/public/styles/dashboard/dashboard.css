@@ -12,6 +12,7 @@
     text-transform: uppercase;
     font-size: 2rem;
     font-family: 'Amatic SC', cursive;
+    outline: none;
 }
 
 .dashboard input#cpf{
@@ -26,18 +27,66 @@
     padding: 10px;
     background: transparent;
     cursor: pointer;
-    -webkit-transition: right 0.5s 0.12s ease-in;
-    -moz-transition: right 0.5s 0.12s ease-in;
-    -ms-transition: right 0.5s 0.12s ease-in;
-    -o-transition: right 0.5s 0.12s ease-in;
-    transition: right 0.5s 0.12s ease-in;
 }
 
-.dashboard button#button-validate-cpf:active{
-    right: 0;
+.dashboard form span{
+    position: absolute;
+    background: #ffdb23;
+    width: 0;
+    height: 10px;
+    -webkit-transition: width linear;
+    -moz-transition: width linear;
+    -ms-transition: width linear;
+    -o-transition: width linear;
+    transition: width linear;
 }
 
-.dashboard button#button-validate-cpf i:before{
-    font-size: 3rem;
+.dashboard form.loading span{
+    -webkit-transition-duration: 8s;
+    -moz-transition-duration: 8s;
+    -ms-transition-duration: 8s;
+    -o-transition-duration: 8s;
+    transition-duration: 8s;
+}
+
+.dashboard form.loaded span{
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.dashboard form.loaded span.load-bar{
+    width: 75%;
+}
+
+.dashboard form span.load-bar{
+    width: 50%;
+}
+
+.dashboard form span.load-bar-loaded{
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    width: 0;
+}
+
+.dashboard button#button-validate-cpf i{
+    font-size: 2rem;
     color: #00B5AD;
+}
+
+.dashboard .activated i{
+    -webkit-transition: color 0.5s 0.12s ease-in-out;
+    -moz-transition: color 0.5s 0.12s ease-in-out;
+    -ms-transition: color 0.5s 0.12s ease-in-out;
+    -o-transition: color 0.5s 0.12s ease-in-out;
+    transition: color 0.5s 0.12s ease-in-out;
+}
+
+.dashboard .activated#button-validate-cpf i{
+    color: black;
 }
